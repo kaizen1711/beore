@@ -2,12 +2,12 @@
   "version": 2,
   "functions": {
     "api/upload.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs", 
       "maxDuration": 30,
       "memory": 1024
     },
     "api/files.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs",
       "maxDuration": 10,
       "memory": 512
     }
