@@ -1,17 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/upload.js": {
-      "runtime": "vercel-node@3.2.0",
-      "maxDuration": 30,
-      "memory": 1024
-    },
-    "api/files.js": {
-      "runtime": "vercel-node@3.2.0",
-      "maxDuration": 10,
-      "memory": 512
-    }
-  },
   "rewrites": [
     {
       "source": "/files/(.*)",
